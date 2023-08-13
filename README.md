@@ -20,9 +20,8 @@ Three Machine Learning algorithms were employed to perform analysis and predicti
 2. Support Vector Machine (SVM)
 3. Random Forest
 
+## Google Colab
+This assignment was completed in Google Colab, an online platform for Python programming and Machine Learning.
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-- The Car Evaluation Database used in this project is sourced from the UCI Machine Learning Repository.
-
