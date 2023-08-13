@@ -1,7 +1,7 @@
 # Car Evaluation Database
 
 ## Overview
-This repository contains the Car Evaluation Database obtained from the UCI Machine Learning Repository. The main objective of this project is to apply Machine Learning algorithms to analyze and predict the evaluation of cars based on a categorical target variable. The dataset provides various attributes related to car specifications.
+This repository contains the Car Evaluation Database obtained from the UCI Machine Learning Repository. The main objective of this project is to apply Machine Learning algorithms to analyze and predict the evaluation of cars based on a categorical target variable. 
 
 ## Dataset
 The dataset used in this project is the [Car Evaluation Database](https://archive.ics.uci.edu/dataset/19/car+evaluation) from the UCI Machine Learning Repository. The dataset model bases its assessment of car acceptance on three concepts: cost, technical
