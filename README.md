@@ -20,6 +20,9 @@ Three Machine Learning algorithms were employed to perform analysis and predicti
 2. Support Vector Machine (SVM)
 3. Random Forest
 
+## Documentation
+The documentation for this assignment can be found  [here](https://github.com/givenmnisi6/Car-Evaluation/blob/main/Car%20Evaluation/Documentation.pdf)
+
 ## Google Colab
 This assignment was completed in Google Colab, an online platform for Python programming and Machine Learning.
 
