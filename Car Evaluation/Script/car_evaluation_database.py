@@ -18,6 +18,7 @@ from sklearn.compose import ColumnTransformer, make_column_transformer
 from sklearn.metrics import roc_curve, auc
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, roc_auc_score, auc
+import seaborn as sns
 
 """# Car Evaluation"""
 
@@ -38,7 +39,16 @@ df.head()
 cMappings = {"unacc": 0, "acc": 1, "vgood": 2, "good": 3}
 df['class'] = df['class'].replace(cMappings)
 
-df.head()
+#df['class'].value_counts().plot(kind = 'bar', figsize= (20,10))
+#sns.countplot(df['class'])
+plt.figure(figsize=(12,8))
+sns.countplot(data = df, x=df['class'])
+
+plt.title('Car Evaluation Dataset')
+plt.xlabel('Classes')
+plt.ylabel('Count')
+
+print(df['class'].value_counts())
 
 """#Train, validation, test datasets
 
